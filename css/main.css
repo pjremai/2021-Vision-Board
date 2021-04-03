@@ -1,0 +1,128 @@
+/***** Another site from scratch in early days of learning January 2021 *****/
+
+/***** Overall Styling ******/
+/****** font-family: 'Boogaloo', cursive;
+        font-family: 'Montserrat', sans-serif; *****/
+
+body {
+    background-color: #264653;
+}
+
+#vision-board {
+    width: 1200px; 
+    height: 850px; 
+    margin: 50px auto; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px; 
+    line-height: 32px;
+    font-weight: 700;
+    color: #264653;
+    clear: both;
+}
+
+.square {
+    width: 400px;
+    box-sizing: border-box;
+    float: left; 
+}
+
+.small-square {
+    height: 200px;
+    background-color: #e9c46a; 
+}
+
+.large-square {
+    height: 450px; 
+}
+
+
+/****** Small Square Styling - Top and Bottom Rows ******/
+
+.small-square h1 {
+    font-size: 36px;
+    text-transform: uppercase; 
+    display: inline-block;
+    border: 3px solid #264653;
+    padding: 10px 20px;
+    margin-left: 20px; 
+    margin-top: 20px; 
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+.left, .list, ul {
+    text-transform: capitalize;
+}
+
+.left li {
+    text-align: left; 
+}
+
+.left ul {
+    margin-top: 0px; 
+}
+
+.codes ul {
+    text-transform: uppercase;
+    padding-left: 0px; 
+}
+
+
+.list ul {
+    padding-top: 20px; 
+    padding-left: 0px; 
+}
+
+p span {
+    font-size: 48px;
+}
+
+.mindbody p {
+    text-transform: capitalize;
+    margin-top: 0px; 
+    padding-left: 30px; 
+}
+
+/****** Middle Row Styling - set images as backgrounds ******/
+
+.home {
+    background: url('../img/mtnhome.jpg');
+}
+
+
+.home h1 {
+    text-align: right; 
+    margin-top: 300px; 
+    margin-right: 20px; 
+}
+
+.home p {
+    padding-left: 20px; 
+}
+
+.starburst {
+    background: url('../img/starburst.jpg');
+}
+
+.starburst p {
+    font-family: 'boogaloo', cursive;
+    font-size: 65px; 
+    line-height: 85px;
+    text-align: center;
+}
+
+.azores {
+    background: url('../img/azores.jpg');
+}
+
+.azores p {
+    margin-top: 300px; 
+    margin-left: 20px; 
+}
+
+
+
+
